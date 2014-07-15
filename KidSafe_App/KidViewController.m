@@ -33,6 +33,10 @@
     
 }
 
+-(NSString*)getAccountString {
+    return self._account.text;
+}
+
 
 
 @end
