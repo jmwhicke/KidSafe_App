@@ -33,10 +33,45 @@
     
 }
 
--(NSString*)getAccountString {
+-(NSString*)getAccountString
+{
     return self._account.text;
 }
 
+-(NSString*)getPinString
+{
+    return self._pin.text;
+}
+
+-(NSString*)getUpperBoundString
+{
+    return self._upperBound.text;
+}
+-(NSString*)getLowerBoundString
+{
+    return self._lowerBound.text;
+}
+-(NSString*)getAlertFreqString
+{
+    return self._alertFreq.text;
+}
+
+-(NSString*)totalString
+{
+    NSString *str = self.getAccountString;
+    
+    str = [str stringByAppendingString:self.getPinString];
+    
+    str = [str stringByAppendingString:self.getUpperBoundString];
+    
+    str = [str stringByAppendingString:self.getLowerBoundString];
+
+    str = [str stringByAppendingString:self.getAlertFreqString];
+    
+    self._totalString = str;
+    
+    return self._totalString;
+}
 
 
 @end
