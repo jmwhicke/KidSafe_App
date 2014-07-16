@@ -10,10 +10,10 @@
 
 @interface KidViewController : UIViewController
 
-@property (nonatomic, weak) IBOutlet UIBarButtonItem* _submit;
 @property (nonatomic, weak) IBOutlet UIBarButtonItem* _quit;
 
 @property (nonatomic, weak) IBOutlet UIButton* _contact;
+@property (nonatomic, weak) IBOutlet UIButton* _submit;
 
 @property (nonatomic, weak) IBOutlet UITextField* _account;
 @property (nonatomic, weak) IBOutlet UITextField* _pin;
@@ -21,13 +21,15 @@
 @property (nonatomic, weak) IBOutlet UITextField* _lowerBound;
 @property (nonatomic, weak) IBOutlet UITextField* _alertFreq;
 
-@property (nonatomic, weak) NSString* totalString;
+@property (nonatomic, weak) NSString* _totalString;
 
 // Need to create methods that retrieve the contents in the text field and convert them to strings.
+
 -(NSString*)getAccountString;
-//-(void)getPin:(NSString*)pinString;
-//-(void)getAlerts:(NSString*)alertString;
-//-(void)getUpperBound:(NSString*)upBoundString;
-//-(void)getLowerBound:(NSString*)lowBoundString;
+-(NSString*)getPinString;
+-(NSString*)getUpperBoundString;
+-(NSString*)getLowerBoundString;
+-(NSString*)getAlertFreqString;
+-(NSString*)totalString;
 
 @end
