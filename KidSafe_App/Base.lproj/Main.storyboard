@@ -152,6 +152,7 @@
                     <connections>
                         <outlet property="_account" destination="kvo-IR-daW" id="fbr-ER-dce"/>
                         <outlet property="_alertFreq" destination="abs-ea-BEe" id="eku-dU-RNV"/>
+                        <outlet property="_clear" destination="701-4o-SyU" id="h9S-aN-5lQ"/>
                         <outlet property="_contact" destination="O3X-6S-TXx" id="Ya7-Wn-L5m"/>
                         <outlet property="_lowerBound" destination="jUS-3E-PYY" id="IBc-OO-xic"/>
                         <outlet property="_pin" destination="evF-wM-gKH" id="eaz-vf-ay0"/>

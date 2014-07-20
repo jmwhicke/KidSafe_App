@@ -9,11 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @interface KidViewController : UIViewController
+{
+    UITextField* _alertFreq;
+    UITextField* _lowerBound;
+    UITextField* _upperBound;
+    UITextField* _pin;
+    UITextField* _account;
+}
 
-@property (nonatomic, weak) IBOutlet UIBarButtonItem* _quit;
+@property (nonatomic, weak) IBOutlet UIBarButtonItem* _clear;
 
 @property (nonatomic, weak) IBOutlet UIButton* _contact;
-@property (nonatomic, weak) IBOutlet UIButton* _submit;
 
 @property (nonatomic, weak) IBOutlet UITextField* _account;
 @property (nonatomic, weak) IBOutlet UITextField* _pin;
