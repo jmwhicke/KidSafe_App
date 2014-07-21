@@ -29,7 +29,6 @@
 
 @property (nonatomic, weak) NSString* _totalString;
 
-// Need to create methods that retrieve the contents in the text field and convert them to strings.
 
 -(NSString*)getAccountString;
 -(NSString*)getPinString;
@@ -38,4 +37,8 @@
 -(NSString*)getAlertFreqString;
 -(NSString*)totalString;
 
+- (void)textFieldDidBeginEditing:(UITextField *)textField;
+- (void)textFieldDidEndEditing:(UITextField *)textField;
+
+- (void)clearTextFields;
 @end

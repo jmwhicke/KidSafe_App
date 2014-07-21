@@ -89,6 +89,11 @@
     return self._totalString;
 }
 
+-(void)clearTextFields
+{
+    
+}
+
 - (void)textFieldDidBeginEditing:(UITextField *)textField
 {
     if (textField == _account)
