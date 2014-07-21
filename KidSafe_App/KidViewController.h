@@ -17,7 +17,7 @@
     UITextField* _account;
 }
 
-@property (nonatomic, weak) IBOutlet UIBarButtonItem* _clear;
+// @property (nonatomic, weak) IBOutlet UIBarButtonItem* _help;
 
 @property (nonatomic, weak) IBOutlet UIButton* _contact;
 
