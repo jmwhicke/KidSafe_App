@@ -9,11 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @interface KidViewController : UIViewController
+{
+    UITextField* _alertFreq;
+    UITextField* _lowerBound;
+    UITextField* _upperBound;
+    UITextField* _pin;
+    UITextField* _account;
+}
 
-@property (nonatomic, weak) IBOutlet UIBarButtonItem* _quit;
+@property (nonatomic, weak) IBOutlet UIBarButtonItem* _clear;
 
 @property (nonatomic, weak) IBOutlet UIButton* _contact;
-@property (nonatomic, weak) IBOutlet UIButton* _submit;
 
 @property (nonatomic, weak) IBOutlet UITextField* _account;
 @property (nonatomic, weak) IBOutlet UITextField* _pin;
@@ -23,7 +29,6 @@
 
 @property (nonatomic, weak) NSString* _totalString;
 
-// Need to create methods that retrieve the contents in the text field and convert them to strings.
 
 -(NSString*)getAccountString;
 -(NSString*)getPinString;
@@ -32,4 +37,8 @@
 -(NSString*)getAlertFreqString;
 -(NSString*)totalString;
 
+- (void)textFieldDidBeginEditing:(UITextField *)textField;
+- (void)textFieldDidEndEditing:(UITextField *)textField;
+
+- (void)clearTextFields;
 @end
