@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99A2D8AE19872F4700238D01 /* KidTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A2D8AD19872F4700238D01 /* KidTableViewController.m */; };
+		99A2D8AF19872F4700238D01 /* KidTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A2D8AD19872F4700238D01 /* KidTableViewController.m */; };
 		99E9DBBD1974D89C00DE5B7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E9DBBC1974D89C00DE5B7D /* Foundation.framework */; };
 		99E9DBBF1974D89C00DE5B7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E9DBBE1974D89C00DE5B7D /* CoreGraphics.framework */; };
 		99E9DBC11974D89C00DE5B7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E9DBC01974D89C00DE5B7D /* UIKit.framework */; };
@@ -14,7 +16,6 @@
 		99E9DBC91974D89C00DE5B7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E9DBC81974D89C00DE5B7D /* main.m */; };
 		99E9DBCD1974D89C00DE5B7D /* KidAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E9DBCC1974D89C00DE5B7D /* KidAppDelegate.m */; };
 		99E9DBD01974D89C00DE5B7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E9DBCE1974D89C00DE5B7D /* Main.storyboard */; };
-		99E9DBD31974D89C00DE5B7D /* KidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E9DBD21974D89C00DE5B7D /* KidViewController.m */; };
 		99E9DBD51974D89C00DE5B7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E9DBD41974D89C00DE5B7D /* Images.xcassets */; };
 		99E9DBDC1974D89C00DE5B7D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E9DBDB1974D89C00DE5B7D /* XCTest.framework */; };
 		99E9DBDD1974D89C00DE5B7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E9DBBC1974D89C00DE5B7D /* Foundation.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99A2D8AC19872F4700238D01 /* KidTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KidTableViewController.h; path = ../KidTableViewController.h; sourceTree = "<group>"; };
+		99A2D8AD19872F4700238D01 /* KidTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KidTableViewController.m; path = ../KidTableViewController.m; sourceTree = "<group>"; };
 		99E9DBB91974D89C00DE5B7D /* KidSafe_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidSafe_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E9DBBC1974D89C00DE5B7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		99E9DBBE1974D89C00DE5B7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +48,6 @@
 		99E9DBCB1974D89C00DE5B7D /* KidAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KidAppDelegate.h; sourceTree = "<group>"; };
 		99E9DBCC1974D89C00DE5B7D /* KidAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KidAppDelegate.m; sourceTree = "<group>"; };
 		99E9DBCF1974D89C00DE5B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		99E9DBD11974D89C00DE5B7D /* KidViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KidViewController.h; sourceTree = "<group>"; };
-		99E9DBD21974D89C00DE5B7D /* KidViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KidViewController.m; sourceTree = "<group>"; };
 		99E9DBD41974D89C00DE5B7D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		99E9DBDA1974D89C00DE5B7D /* KidSafe_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KidSafe_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E9DBDB1974D89C00DE5B7D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -112,11 +113,11 @@
 		99E9DBC21974D89C00DE5B7D /* KidSafe_App */ = {
 			isa = PBXGroup;
 			children = (
+				99A2D8AC19872F4700238D01 /* KidTableViewController.h */,
+				99A2D8AD19872F4700238D01 /* KidTableViewController.m */,
 				99E9DBCB1974D89C00DE5B7D /* KidAppDelegate.h */,
 				99E9DBCC1974D89C00DE5B7D /* KidAppDelegate.m */,
 				99E9DBCE1974D89C00DE5B7D /* Main.storyboard */,
-				99E9DBD11974D89C00DE5B7D /* KidViewController.h */,
-				99E9DBD21974D89C00DE5B7D /* KidViewController.m */,
 				99E9DBD41974D89C00DE5B7D /* Images.xcassets */,
 				99E9DBC31974D89C00DE5B7D /* Supporting Files */,
 			);
@@ -250,8 +251,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99E9DBD31974D89C00DE5B7D /* KidViewController.m in Sources */,
 				99E9DBC91974D89C00DE5B7D /* main.m in Sources */,
+				99A2D8AE19872F4700238D01 /* KidTableViewController.m in Sources */,
 				99E9DBCD1974D89C00DE5B7D /* KidAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99A2D8AF19872F4700238D01 /* KidTableViewController.m in Sources */,
 				99E9DBE81974D89C00DE5B7D /* KidSafe_AppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +459,7 @@
 				99E9DBED1974D89C00DE5B7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99E9DBEE1974D89C00DE5B7D /* Build configuration list for PBXNativeTarget "KidSafe_AppTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +468,7 @@
 				99E9DBF01974D89C00DE5B7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
