@@ -10,23 +10,24 @@
 
 @interface KidTableViewController : UITableViewController
 {
-    __weak IBOutlet UITextField *account;
-    __weak IBOutlet UITextField *pin;
-    __weak IBOutlet UITextField *alertFreq;
-    __weak IBOutlet UITextField *upperBound;
-    __weak IBOutlet UITextField *lowerBound;
-    __weak IBOutlet UIButton *submit;
-    __weak IBOutlet UIButton *clear;
+//    __weak IBOutlet UITextField *account;
+//    __weak IBOutlet UITextField *pin;
+//    __weak IBOutlet UITextField *alertFreq;
+//    __weak IBOutlet UITextField *upperBound;
+//    __weak IBOutlet UITextField *lowerBound;
+//    __weak IBOutlet UIButton *submit;
+//    __weak IBOutlet UIButton *clear;
+//
 }
 
-//@property (nonatomic, weak) IBOutlet UITextField* _account;
-//@property (nonatomic, weak) IBOutlet UITextField* _pin;
-//@property (nonatomic, weak) IBOutlet UITextField* _upperBound;
-//@property (nonatomic, weak) IBOutlet UITextField* _lowerBound;
-//@property (nonatomic, weak) IBOutlet UITextField* _alertFreq;
-//
-//@property (weak, nonatomic) IBOutlet UIButton *_submit;
-//@property (weak, nonatomic) IBOutlet UIButton *_clear;
+@property (nonatomic, weak) IBOutlet UITextField* _account;
+@property (nonatomic, weak) IBOutlet UITextField* _pin;
+@property (nonatomic, weak) IBOutlet UITextField* _upperBound;
+@property (nonatomic, weak) IBOutlet UITextField* _lowerBound;
+@property (nonatomic, weak) IBOutlet UITextField* _alertFreq;
+
+@property (weak, nonatomic) IBOutlet UIButton *_submit;
+@property (weak, nonatomic) IBOutlet UIButton *_clear;
 
 @property (nonatomic, weak) NSString* _totalString;
 
